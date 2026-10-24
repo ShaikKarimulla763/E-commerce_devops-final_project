@@ -1,0 +1,1 @@
+Northstar e-commerce demo JSP app. Requires Tomcat 10.1+ and Java 17. Build from source with `mvn clean package` to create `target/sample.war`. Deploy WAR to Tomcat webapps and visit `http://localhost:8080/sample/`. Demo cart uses query parameters only; no real payments/database.

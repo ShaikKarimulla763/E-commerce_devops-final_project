@@ -1,0 +1,1 @@
+FROM tomcat:10.1-jdk17-temurin\nRUN rm -rf /usr/local/tomcat/webapps/*\nCOPY target/sample.war /usr/local/tomcat/webapps/sample.war\nEXPOSE 8080\nCMD ["catalina.sh", "run"]\n
